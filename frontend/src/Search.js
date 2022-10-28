@@ -17,6 +17,7 @@ const Search = () => {
 
 return (
     < section className="py-4 container">
+
          <div className="row justify-content-center">
         
                 <div className="col-12 mb-5">
