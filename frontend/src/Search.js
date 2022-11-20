@@ -1,7 +1,11 @@
 import React, {useState} from 'react';
 import data from './data';
-
+import { Link } from 'react-router-dom';
+import './search.css'
+import { useNavigate } from 'react-router-dom';
 const Search = () => {
+
+  const navigate = useNavigate();
 
   const [filter, setFilter] = useState('');
 
@@ -23,7 +27,7 @@ return (
                 <div className="col-12 mb-5">
                   <div className="mb-3 col-4 mx-auto text-center">
                     
-                    <lable className ="form-label h4"> Search</lable>
+                    <lable className ="form-label h4" style={{marginRight:"15px"}}> Search </lable>
                     
 
                     <input
@@ -42,12 +46,25 @@ return (
                         return (
                           <div className= "col-11 col-md-6 col-1g-3 mx-0 mb-4">
                             <div className="card p-0 overflow-hidden h-100 shadow">
-                            <img src= {item.img} className="card-img-top" />
+                            <img src= {item.img} className="card-img-top"
+                            id='imgid'
+                            onClick={()=>{navigate("/initiateproperty"
+                            ,{state:item}
+                            )}}
+                            />
 
                             <div className="card-body">
-                            <h5 className="card-title">{item.title}</h5> 
-                             <p className="card-text">{item.desc} </p>
-                            
+                            <h5 data-testid="testid1" className="card-title">{item.title}</h5> 
+                             <p data-testid="testid2" className="card-text">{item.desc} </p>
+                             <div
+                             data-testid="testid2"
+                                className="button" 
+                                onClick={()=>{navigate("/initiateproperty"
+                                ,{state:item}
+                                )}}
+                                >
+                              See Details
+                              </div>
                             </div>
                         </div>
                       </div>

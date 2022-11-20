@@ -19,14 +19,16 @@ const data = {
             id:1,
             img: img1,
             title: 'house along road',
-            desc: 'Rs. 1 Crore'
+            desc: 'Rs. 1 Crore',
+            details:{area:"9 Marlas",bedroom:"4",bath:"3",location:"Faizabad",purpose:"Rent",type:"House"}
         },
 
         {
             id:2,
             img: img2,
             title: 'house with garden',
-            desc: 'Rs. 3 Crore'
+            desc: 'Rs. 3 Crore',
+            details:{area:"",bedroom:"",bath:"",location:"",purpose:"",type:""}
         },
 
         {
@@ -34,13 +36,15 @@ const data = {
             img: img3,
             title: 'unique house',
             desc: 'Rs. 4 Crore'
+            ,details:{area:"",bedroom:"",bath:"",location:"",purpose:"",type:""}
         },
 
         {
             id:4,
             img: img4,
             title: 'house along road',
-            desc: 'Rs. 4 Crore'
+            desc: 'Rs. 4 Crore',
+            details:{area:"",bedroom:"",bath:"",location:"",purpose:"",type:""}
         },
 
         {
@@ -48,6 +52,7 @@ const data = {
             img: img5,
             title: 'house along road',
             desc: 'Rs. 5 Crore'
+            ,details:{area:"",bedroom:"",bath:"",location:"",purpose:"",type:""}
         },
 
         {
@@ -55,6 +60,7 @@ const data = {
             img: img6,
             title: 'house with pool',
             desc: 'Rs. 6 Crore'
+            ,details:{area:"",bedroom:"",bath:"",location:"",purpose:"",type:""}
         },
 
         {
@@ -62,6 +68,7 @@ const data = {
             img: img7,
             title: 'house with pool',
             desc: 'Rs. 4 Crore'
+            ,details:{area:"",bedroom:"",bath:"",location:"",purpose:"",type:""}
         },
 
         {
@@ -69,6 +76,7 @@ const data = {
             img: img8,
             title: 'house with pool',
             desc: 'Rs. 7 Crore'
+            ,details:{area:"",bedroom:"",bath:"",location:"",purpose:"",type:""}
         },
 
         {
@@ -76,6 +84,7 @@ const data = {
             img: img9,
             title: 'unique house',
             desc: 'Rs. 1 Crore'
+            ,details:{area:"",bedroom:"",bath:"",location:"",purpose:"",type:""}
         },
 
         {
@@ -83,6 +92,7 @@ const data = {
             img: img10,
             title: 'house with garden',
             desc: 'Rs. 5 Crore'
+            ,details:{area:"",bedroom:"",bath:"",location:"",purpose:"",type:""}
         },
 
         {
@@ -90,6 +100,7 @@ const data = {
             img: img11,
             title: 'house with pool',
             desc: 'Rs. 2 Crore'
+            ,details:{area:"",bedroom:"",bath:"",location:"",purpose:"",type:""}
         },
 
         {
@@ -97,6 +108,7 @@ const data = {
             img: img12,
             title: 'unique house',
             desc: 'Rs. 6 Crore'
+            ,details:{area:"",bedroom:"",bath:"",location:"",purpose:"",type:""}
         },
 
         {
@@ -104,6 +116,7 @@ const data = {
             img: img13,
             title: 'house with pool',
             desc: 'Rs. 3 Crore'
+            ,details:{area:"",bedroom:"",bath:"",location:"",purpose:"",type:""}
         },
 
         {
@@ -111,6 +124,7 @@ const data = {
             img: img14,
             title: 'unique house',
             desc: 'Rs. 8 Crore'
+            ,details:{area:"",bedroom:"",bath:"",location:"",purpose:"",type:""}
         }
 
 
