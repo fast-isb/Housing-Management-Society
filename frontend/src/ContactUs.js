@@ -26,7 +26,7 @@ const ContactUs = () => {
 
   const clickHandel = () => {
     const dataa = {
-      url: "http://localhost:3001/Kamil/giveconcerns",
+      url: "http://13.114.50.96:3001/Kamil/giveconcerns",
       method: "POST",
       data: obj,
     };
